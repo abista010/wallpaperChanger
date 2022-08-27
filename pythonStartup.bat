@@ -1,0 +1,1 @@
+C:\Users\ayush\AppData\Local\Programs\Python\Python310\python.exe C:\Programming\Python\wallpaperChanger\webscraper.py

@@ -3,7 +3,6 @@ import os
 import shutil
 import ctypes
 import requests
-from urllib import response
 from email.mime import image                    #Needed to mkdir#Needed to download image
 from selenium import webdriver
 
@@ -20,7 +19,6 @@ def wallpaperChanger(imgName):
     imgDir=imagesFolderPath+slash+imgName
     print(imgDir)
     ctypes.windll.user32.SystemParametersInfoW(20,0,imgDir,0)
-
                  
 url='https://apod.nasa.gov/apod/astropix.html'  #NASA APOD website URL
 imagesFolderPath=r'C:\Users\ayush\Pictures\NASA APOD images'
